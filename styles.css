@@ -9,6 +9,8 @@ body {
     font-family: "Ubuntu", sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.25px;
     color: #707070;
 }
 
@@ -34,6 +36,7 @@ h3 {
     font-family: "Lora", serif;
     font-weight: 400;
     color: #143774;
+    line-height: 1.1;
     margin-top: 0;
 }
 
@@ -63,6 +66,7 @@ strong {
     font-weight: 700;
     color: #1792d2;
     font-size: 0.75rem;
+    letter-spacing: 2.75px;
     margin: 0;
 }
 
@@ -79,6 +83,8 @@ strong {
     color: #1792d2;
     text-decoration: none;
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
 }
 
 .article-read-more:hover,
@@ -98,11 +104,15 @@ strong {
 .widget-title,
 .widget-recent-post-title {
     font-size: 1rem;
+    line-height: 1.4;
 }
 
 .widget-title {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 .widget-recent-post-title {
@@ -132,13 +142,21 @@ header {
     margin-bottom: 3em;
 }
 
-.margin-btm {
+.margin-btm-zero {
+    margin-bottom: 0.25em;
+}
+
+.margin-btm-one {
+    margin-bottom: 1.25em;
+}
+
+.margin-btm-two {
     margin-bottom: 2em;
 }
 
 footer {
     background: #143774;
-    color: #ebebeb;
+    color: rgba(255, 255, 255, 0.65);
     font-size: 0.875rem;
     text-align: center;
     padding: 2em 0;
@@ -182,6 +200,8 @@ footer {
     color: #707070;
     font-weight: 700;
     padding: 0.25em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .nav-link:hover,
